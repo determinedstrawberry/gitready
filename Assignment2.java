@@ -38,7 +38,7 @@ public class Assignment2 {
 
         // DRAW
         if (player1Choice.equals(player2Choice)) {
-            System.out.println("It is a tie.");
+            System.out.println("It is a DRAW.");
         }
         // Player 1 selects rock
         if (player1Choice.equals("rock")) {
