@@ -10,7 +10,7 @@ public class Assignment2 {
         //      2. ignore case, compare values
         //      3. output winner
         Scanner input = new Scanner(System.in);
-        System.out.print("Player 1: rock, scissors, paper: \n");
+        System.out.print("Player 1: rock, paper, or scissors: \n");
 
 //        // RoCk, rOCK, ROCk = rock
 //        String player1Selection = input.nextLine().toLowerCase();
@@ -25,7 +25,7 @@ public class Assignment2 {
             System.out.println("WRONG CHOICE.");
         }
 
-        System.out.print("Player 2: rock, scissors, paper: \n");
+        System.out.print("Player 2: rock, paper, or scissors: \n");
         String player2Choice = input.nextLine();
         player2Choice = player2Choice.trim().toLowerCase();
 
